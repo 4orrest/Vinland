@@ -27,7 +27,6 @@ export default function Checkout(){
         if(res.status === 403){
             return router.push('/api/auth/signin')
         }
-        //SET CLIENT SECRET and the payment intent associated with it
         return res.json()
     }).then((data) => {
         console.log(data)

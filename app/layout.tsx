@@ -1,5 +1,5 @@
 import './globals.css'
-import Nav from './components/Nav'
+import Nav from "./components/Nav"
 import { getServerSession } from 'next-auth/next'
 import { authOptions } from '@/pages/api/auth/[...nextauth]'
 import Hydrate from './components/Hydrate'

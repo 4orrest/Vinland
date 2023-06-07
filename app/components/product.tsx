@@ -16,7 +16,14 @@ export default function Product({
     return (
     <Link href={{pathname: `/product/${id}`, query: { name, image, price, id, description, perks }}}>   
         <div>
-            <Image src={image} alt={name} width={800} height={800} className="w-full h-86 object-cover rounded-lg"/>
+            <Image 
+            src={image} 
+            alt={name} 
+            width={800} 
+            height={800} 
+            className="w-full h-86 object-cover rounded-lg"
+            priority={true}
+            />
             
             <div className="font-medium py-2">
             <h1>{name}</h1>

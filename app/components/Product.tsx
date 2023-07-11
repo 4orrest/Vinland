@@ -3,7 +3,7 @@ import formatPrice from "@/util/PriceFormat";
 import { ProductType } from "@/types/ProductType";
 import Link from "next/link";
 
-export default function product({
+export default function Product({
   name,
   image,
   unit_amount,

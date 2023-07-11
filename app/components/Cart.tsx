@@ -12,7 +12,6 @@ import OrderConfirmed from "./OrderConfirmed";
 export default function Cart() {
   const cartStore = useCartStore();
 
-  console.log("cartstore", cartStore);
   //Total Price
   const totalPrice = cartStore.cart.reduce((acc, item) => {
     return acc + item.unit_amount! * item.quantity!;

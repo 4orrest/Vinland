@@ -5,9 +5,7 @@ An e-commerce site using next.js, tailwindcss, nextAuth, postgres and stripe
 
 ![image](https://github.com/4orrest/Vinland/assets/76661750/7c119e0c-b1b4-4c98-9565-49e92ad470b4)
 
-## Features:
-
-**Other tech used:**
+## Other tech used:
 <ul>
   <li>Prisma</li>
   <li>Zustand</li>
